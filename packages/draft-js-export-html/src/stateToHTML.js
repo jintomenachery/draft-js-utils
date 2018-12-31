@@ -44,6 +44,7 @@ type Options = {
   inlineStyleFn?: InlineStyleFn;
   blockRenderers?: BlockRendererMap;
   blockStyleFn?: BlockStyleFn;
+  
   entityStyleFn?: EntityStyleFn;
   defaultBlockTag?: ?string;
 };
